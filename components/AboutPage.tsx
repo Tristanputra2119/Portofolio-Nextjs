@@ -23,7 +23,7 @@ const AboutPage = () => {
                             </p>
                     </div> 
                     <div className="text-center md:w-1/2 md:text-center">
-            <h1 className="text-2xl md:text-4xl font-bold mb-6 text-center mx-auto">SKILLS & ABILITIES</h1>
+            <h1 className="text-2xl md:text-4xl font-bold mb-6 text-center mx-auto">SKILLS & ABILITY </h1>
             <hr className="w-12 h-1 mx-auto my-4 bg-[#FFF] border-0 rounded"></hr>
             <div className="flex flex-wrap flex-row z-10  items-center justify-center">
                 <div className="skill-box">
@@ -53,6 +53,14 @@ const AboutPage = () => {
                 <div className="skill-box">
                     <p>Laravel</p>
                     <img src="/images/Laravel.svg.png" alt="" />
+                </div>
+            </div>
+            <div className="flex flex-wrap flex-row z-10 justify-center">
+                <div className="ability-box">
+                    <p>Problem Solving</p>
+                </div>
+                <div className="ability-box">
+                    <p>Team Working</p>
                 </div>
             </div>
         </div>
