@@ -104,6 +104,32 @@ self.__RSC_MANIFEST={
         "async": false
       }
     },
+    "(app-client)/./components/Navbar.tsx": {
+      "": {
+        "id": "(sc_client)/./components/Navbar.tsx",
+        "name": "",
+        "chunks": [
+          "app/layout:app/layout"
+        ],
+        "async": false
+      },
+      "*": {
+        "id": "(sc_client)/./components/Navbar.tsx",
+        "name": "*",
+        "chunks": [
+          "app/layout:app/layout"
+        ],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./components/Navbar.tsx",
+        "name": "default",
+        "chunks": [
+          "app/layout:app/layout"
+        ],
+        "async": false
+      }
+    },
     "(app-client)/./components/ContactForm.tsx": {
       "": {
         "id": "(sc_client)/./components/ContactForm.tsx",
@@ -178,32 +204,6 @@ self.__RSC_MANIFEST={
         "name": "default",
         "chunks": [
           "app/page:app/page"
-        ],
-        "async": false
-      }
-    },
-    "(app-client)/./components/Navbar.tsx": {
-      "": {
-        "id": "(sc_client)/./components/Navbar.tsx",
-        "name": "",
-        "chunks": [
-          "app/layout:app/layout"
-        ],
-        "async": false
-      },
-      "*": {
-        "id": "(sc_client)/./components/Navbar.tsx",
-        "name": "*",
-        "chunks": [
-          "app/layout:app/layout"
-        ],
-        "async": false
-      },
-      "default": {
-        "id": "(sc_client)/./components/Navbar.tsx",
-        "name": "default",
-        "chunks": [
-          "app/layout:app/layout"
         ],
         "async": false
       }
@@ -423,6 +423,32 @@ self.__RSC_MANIFEST={
       "async": false
     }
   },
+  "C:\\Users\\Ngurah\\Documents\\portfolio-nextjs (copy)\\components\\Navbar.tsx": {
+    "": {
+      "id": "(app-client)/./components/Navbar.tsx",
+      "name": "",
+      "chunks": [
+        "app/layout:app/layout"
+      ],
+      "async": false
+    },
+    "*": {
+      "id": "(app-client)/./components/Navbar.tsx",
+      "name": "*",
+      "chunks": [
+        "app/layout:app/layout"
+      ],
+      "async": false
+    },
+    "default": {
+      "id": "(app-client)/./components/Navbar.tsx",
+      "name": "default",
+      "chunks": [
+        "app/layout:app/layout"
+      ],
+      "async": false
+    }
+  },
   "C:\\Users\\Ngurah\\Documents\\portfolio-nextjs (copy)\\components\\ContactForm.tsx": {
     "": {
       "id": "(app-client)/./components/ContactForm.tsx",
@@ -497,32 +523,6 @@ self.__RSC_MANIFEST={
       "name": "default",
       "chunks": [
         "app/page:app/page"
-      ],
-      "async": false
-    }
-  },
-  "C:\\Users\\Ngurah\\Documents\\portfolio-nextjs (copy)\\components\\Navbar.tsx": {
-    "": {
-      "id": "(app-client)/./components/Navbar.tsx",
-      "name": "",
-      "chunks": [
-        "app/layout:app/layout"
-      ],
-      "async": false
-    },
-    "*": {
-      "id": "(app-client)/./components/Navbar.tsx",
-      "name": "*",
-      "chunks": [
-        "app/layout:app/layout"
-      ],
-      "async": false
-    },
-    "default": {
-      "id": "(app-client)/./components/Navbar.tsx",
-      "name": "default",
-      "chunks": [
-        "app/layout:app/layout"
       ],
       "async": false
     }

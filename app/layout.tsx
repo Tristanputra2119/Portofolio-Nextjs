@@ -3,8 +3,8 @@ import Navbar from '@/components/Navbar'
 
 
 export const metadata = {
- title : 'TEST',
- description : 'test',
+ title : 'Portofolio',
+ description : 'Portofolio-Nextjs',
 }
 
 export default function RootLayout({
