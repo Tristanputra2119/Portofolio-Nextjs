@@ -25,7 +25,7 @@ function ContactForm() {
     }
 
     return (
-        <section id="contact" className="bg-[#EDEDED] body-font relative">
+        <section id="contact" className="bg-white body-font relative">
             <div className="container px-5 py-10 mx-auto">
                 <div className="flex flex-col text-center w-full mb-12">
                     <h1 className="my-2 text-center font-bold text-2xl md:text-4xl text-[#1E1E1E]">

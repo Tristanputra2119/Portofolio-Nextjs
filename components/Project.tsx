@@ -6,7 +6,7 @@ import { BsGithub, BsArrowUpRightSquare } from "react-icons/bs"
 
 const Project = () => {
     return (
-        <section id="project" className="bg-[#B19DC5] pt-5">
+        <section id="project" className="bg-gray-200 pt-5">
             <h1 className="my-5 text-center font-bold text-2xl md:text-4xl text-[#1E1E1E]">
                 PROJECT
                 <hr className="w-12 h-1 mx-auto my-4 bg-[#B19DC5] border-0 rounded"></hr>

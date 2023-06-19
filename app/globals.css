@@ -21,7 +21,7 @@ html {
 }
 
 ::-webkit-scrollbar-thumb {
-  background-color: #b19dc5;
+  background-color: #fff;
   border: 2em;
   border-radius: 2em;
 }
@@ -42,11 +42,11 @@ body {
 
 #about {
   width: 100%;
-  background-color: #ededed;
+  background-color:  #fff;
 }
 
 #moreabout {
-  background-color: #ededed;
+  background-color: #fff;
   width: 100%;
   margin-top: 20px;
 }
@@ -95,13 +95,11 @@ h3 {
 }
 
 .skill-box {
-  --bg: #1e1e1e;
-  --hover-bg: #b19dc5;
   --hover-text: #1e1e1e;
-  color: #d9d9d9;
+  color: #1e1e1e;
   border: 1px solid var(--bg);
   text-align: center;
-  width: 120px;
+  width: 150px;
   padding: 0.8em;
   font-weight: 600;
   margin: 10px;
@@ -109,7 +107,7 @@ h3 {
   background: var(--bg);
   transition: 0.2s;
   cursor: default;
-  width: 120px;
+  width: 150px;
   height: 150px;
 }
 
@@ -127,8 +125,8 @@ h3 {
 
 .ability-box {
   --bg: #1e1e1e;
-  --hover-bg: #b19dc5;
-  --hover-text: #1e1e1e;
+  --hover-bg: #1e1e1e;
+  --hover-text: #fff;
   color: #d9d9d9;
   border: 1px solid var(--bg);
   text-align: center;
@@ -157,7 +155,6 @@ h3 {
 .php-img {
   margin-top: 25px;
 }
-
 .edu-box {
   --bg: #1e1e1e;
   --hover-bg: #b19dc5;
