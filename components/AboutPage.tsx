@@ -54,6 +54,10 @@ const AboutPage = () => {
                     <p>Laravel</p>
                     <img src="/images/Laravel.svg.png" alt="" />
                 </div>
+                <div className="skill-box">
+                    <p>Github</p>
+                    <img src="/images/github.png" alt=""  />
+                </div>
             </div>
         </div>
                 </div>
