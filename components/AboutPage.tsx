@@ -10,15 +10,15 @@ const AboutPage = () => {
                             ABOUT ME
                         </h1>
                         <hr className="w-12 h-1 mx-auto my-4 bg-gray-300 border-0 rounded text"></hr>
-                        <p className="text-[#1E1E1E] mb:text-lg text-xl">
+                        <p className="text-[#1E1E1E] mb:text-lg text-lg">
                             My name is <span>Made Ngurah Tristan Putra</span>, you can call me <span>Tristan</span> for short. I am a 3rd year Vocational High School student majoring in Software Engineering at SMKN 1 Denpasar.
                         </p>
                         <br />
-                        <p className="mb:text-lg text-xl" >
+                        <p className="mb:text-lg text-lg" >
                         I am a passionate software engineer with a keen interest in exploring and embracing new technologies. With a background in software engineering, I thrive on the challenges of developing innovative solutions and solving complex problems through logical thinking.
                         </p>
                         <br />
-                        <p className="mb-10 text-xl ">
+                        <p className="mb-10 text-lg">
                         I am constantly seeking opportunities to expand my knowledge and skills in the ever-evolving field of technology. 
                             </p>
                     </div> 

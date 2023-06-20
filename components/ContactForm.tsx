@@ -40,7 +40,7 @@ function ContactForm() {
                             <div className="relative">
                                 <form action="https://formspree.io/f/xvoneoye"
                                     method="POST" onSubmit={handleSubmit} autoComplete="off">
-                                    <label className="leading-7 text-sm text-[#1E1E1E]" htmlFor="name">
+                                    <label className="leading-7 text-lg text-[#1E1E1E]" htmlFor="name">
                                         Name
                                     </label>
                                     <input className="w-full bg-[#1D202B]  rounded border border-[#4E597A] focus:border-[#20232E] focus:bg-[#15171E] focus:ring-2 focus:ring-[#B19DC5] text-base outline-none text-[#EDEDED] py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
@@ -54,7 +54,7 @@ function ContactForm() {
                                         field="name"
                                         errors={state.errors}
                                     />
-                                    <label className="leading-7 text-sm text-[#1E1E1E]" htmlFor="email">
+                                    <label className="leading-7 text-lg text-[#1E1E1E]" htmlFor="email">
                                         Email
                                     </label>
                                     <input className="w-full bg-[#1D202B] rounded border border-[#4E597A] focus:border-[#20232E] focus:bg-[#15171E] focus:ring-2 focus:ring-[#B19DC5] text-base outline-none text-[#EDEDED] py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
@@ -68,7 +68,7 @@ function ContactForm() {
                                         field="email"
                                         errors={state.errors}
                                     />
-                                    <label htmlFor="message" className="leading-7 text-sm text-[#1E1E1E]">Message</label>
+                                    <label htmlFor="message" className="leading-7 text-lg text-[#1E1E1E]">Message</label>
                                     <textarea className="w-full bg-[#1D202B] rounded border border-[#4E597A] focus:border-[#20232E] focus:bg-[#15171E] focus:ring-2 focus:ring-[#B19DC5] h-32 text-base outline-none text-[#EDEDED] py-1 px-3 leading-6 transition-colors duration-200 ease-in-out"
                                         placeholder="Insert your message" required
                                         id="message"
