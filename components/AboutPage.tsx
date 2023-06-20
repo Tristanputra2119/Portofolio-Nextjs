@@ -20,7 +20,7 @@ const AboutPage = () => {
                         <br />
                         <p className="mb-10 text-lg">
                         I am constantly seeking opportunities to expand my knowledge and skills in the ever-evolving field of technology. 
-                            </p>
+                        </p>
                     </div> 
                     <div className="text-center md:w-1/2 md:text-center">
             <h1 className="text-2xl md:text-4xl font-bold mb">SKILLS</h1>
