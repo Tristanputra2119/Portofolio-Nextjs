@@ -8,7 +8,7 @@ function ContactForm() {
     const [state, handleSubmit] = useForm("xvoneoye");
     if (state.succeeded) {
         return <main>
-            <body className="bg-[#202203]">
+            <body className="bg-gray-200">
                 <div className="container px-5 py-2 mx-auto">
                     <div className="flex flex-wrap -m-4 justify-center">
                         <div className="p-4 mt-36 w-2/3 sm:w-1/2 lg:w-1/3 bg-[#F1F1F1] rounded-xl">
