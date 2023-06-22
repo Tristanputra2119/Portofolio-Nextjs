@@ -1,4 +1,7 @@
 /// <reference types="cypress" />
+
+import { any } from "cypress/types/bluebird";
+
 // ***********************************************
 // This example commands.ts shows you how to
 // create various custom commands and overwrite
@@ -35,4 +38,16 @@
 //     }
 //   }
 // }
+// cypress/support/commands.ts
+
+
+
+Cypress.Commands.add('fillOutForm', ({name,email,message}) => {
+cy.get('#name').type(name);
+cy.get('#email').type(email);
+cy.get('#message').type(message);
+cy.get('#submit').click();
+cy.get('#back').click();
+});
+
 export{}

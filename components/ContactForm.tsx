@@ -17,7 +17,7 @@ function ContactForm() {
                                 </h3>
                                 <div className="flex items-center flex-wrap justify-center ">
                                     <a href="">
-                                        <button className="edu-box hover:cursor-pointer">
+                                        <button className="edu-box hover:cursor-pointer" id="back">
                                             Back to home page
                                         </button>
                                     </a>
@@ -111,7 +111,7 @@ function ContactForm() {
                                     <div className="mt-10 items-center">
                                         <button
                                             className="send-button"
-                                            type="submit"
+                                            type="submit" id="submit"
                                             disabled={state.submitting}
                                         >
                                             Send

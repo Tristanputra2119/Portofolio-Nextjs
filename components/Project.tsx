@@ -25,7 +25,7 @@ const Project = () => {
                 <h1 className='text-2xl font-semibold mb-3'>Eduford</h1>
                 <p className='leading-relaxed mb-3'>
                   A Project Using Html,CSS,And Javascript, And this is a static
-                  website without an php, And it's A Resposnsive Website
+                  website without an php
                 </p>
                 <div className='flex items-center flex-wrap '>
                   <a
