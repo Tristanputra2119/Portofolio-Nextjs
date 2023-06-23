@@ -24,7 +24,8 @@ const Project = () => {
               <div className='p-4'>
                 <h1 className='text-2xl font-semibold mb-3'>Eduford</h1>
                 <p className='leading-relaxed mb-3'>
-                A website Using Html,Css,Javascript, This website is made because of my school project,this website is responsive
+                  A website Using Html,Css,Javascript, This website is made
+                  because of my school project,this website is responsive
                 </p>
                 <div className='flex items-center flex-wrap '>
                   <a

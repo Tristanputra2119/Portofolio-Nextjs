@@ -1,23 +1,22 @@
-import './globals.css'
-import Navbar from '@/components/Navbar'
-
+import "./globals.css";
+import Navbar from "@/components/Navbar";
 
 export const metadata = {
- title : 'Portofolio Tristan',
- description : 'Portofolio-Nextjs',
-}
+  title: "Portofolio Tristan",
+  description: "Portofolio-Nextjs",
+};
 
 export default function RootLayout({
   children,
 }: {
-  children: React.ReactNode
+  children: React.ReactNode;
 }) {
   return (
-    <html lang="en">
+    <html lang='en'>
       <body>
         <Navbar />
         {children}
       </body>
     </html>
-  )
+  );
 }
