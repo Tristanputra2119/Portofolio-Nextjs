@@ -31,9 +31,9 @@ const AboutPage = () => {
             </p>
           </div>
           <div className='text-center md:w-1/2 md:text-center'>
-            <h1 className='text-2xl md:text-4xl font-bold mb'>SKILLS</h1>
-            <hr className='w-12 h-1 mx-auto my-4 bg-[#FFF] border-0 rounded'></hr>
-            <div className='flex flex-wrap flex-row z-10  items-center justify-center'>
+            <h1 className='text-2xl md:text-4xl font-bold mb-6'>SKILLS</h1>
+            <hr className='w-12 h-1 mx-auto my-4 bg-gray-300 border-0 rounded'></hr>
+            <div className='flex flex-wrap flex-row z-20 items-center justify-center'>
               <div className='skill-box'>
                 <p>HTML</p>
                 <img src='/images/html.png' alt='' />
@@ -44,7 +44,7 @@ const AboutPage = () => {
               </div>
               <div className='skill-box'>
                 <p>JavaScript</p>
-                <img className='js-img' src='/images/js.png' alt='' />
+                <img src='/images/js.png' alt='' />
               </div>
               <div className='skill-box'>
                 <p>Tailwind CSS</p>
