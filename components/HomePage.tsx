@@ -25,7 +25,7 @@ const HomePage = () => {
             SMKN 1 Denpasar.
           </p>
           <a href='#about'>
-            <button className='home-button'>Get to know me</button>
+            <button className='home-button'>About Me</button>
           </a>
         </div>
       </div>
