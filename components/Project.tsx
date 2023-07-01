@@ -4,7 +4,71 @@ import Link from "next/link";
 import SlideUp from "./Slideup";
 import { BsGithub, BsArrowUpRightSquare } from "react-icons/bs";
 
-const Project = () => {
+interface ProjectBoxProps {
+  imageSrc: string;
+  imageAlt: string;
+  title: string;
+  description: string;
+  visitLink: string;
+}
+
+const ProjectBox: React.FC<ProjectBoxProps> = ({
+  imageSrc,
+  imageAlt,
+  title,
+  description,
+  visitLink,
+}) => {
+  return (
+    <div className='project-box sm:w-1/2 lg:w-1/4 rounded-lg h-1/4'>
+      <div className='h-fit rounded-lg overflow-hidden cursor-default'>
+        <img
+          className='lg:h-40 md:h-48 w-screen object-cover object-center'
+          src={imageSrc}
+          alt={imageAlt}
+        />
+        <div className='p-4'>
+          <h1 className='text-2xl font-semibold mb-3'>{title}</h1>
+          <p className='leading-relaxed mb-3'>{description}</p>
+          <div className='flex items-center flex-wrap '>
+            <a href={visitLink} target='_blank'>
+              <button className='visit-button'>Visit</button>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+};
+
+const Project: React.FC = () => {
+  const projects: ProjectBoxProps[] = [
+    {
+      imageSrc: "/images/Eduford.png",
+      imageAlt: "Eduford",
+      title: "Eduford",
+      description:
+        "A website Using Html,Css,Javascript, This website is made because of my school project, this website is responsive",
+      visitLink: "https://tristanputra2119.github.io/University-Web/",
+    },
+    {
+      imageSrc: "/images/Foodies.png",
+      imageAlt: "Foodies",
+      title: "Foodies Website",
+      description:
+        "A School Project About Restaurant E-commerce Using Bootstrap 5, This website is responsive",
+      visitLink: "https://tristanputra2119.github.io/foodies/",
+    },
+    {
+      imageSrc: "/images/OOP.png",
+      imageAlt: "Foodies",
+      title: "PHP OOP CRUD",
+      description:
+        "A Website Test Project for the competency exam of 12-grade skills. The website is not using CSS",
+      visitLink: "http://admincms2.epizy.com/tampil.php",
+    },
+  ];
+
   return (
     <section id='project' className='bg-gray-200 pt-5'>
       <h1 className='my-5 text-center font-bold text-2xl md:text-4xl text-[#1E1E1E]'>
@@ -14,77 +78,9 @@ const Project = () => {
 
       <div className='container px-5 py-5 mx-auto'>
         <div className='flex flex-wrap justify-center'>
-          <div className='project-box sm:w-1/2 lg:w-1/4 rounded-lg h-1/4'>
-            <div className='h-fit rounded-lg overflow-hidden cursor-default'>
-              <img
-                className='lg:h-40 md:h-48 w-screen object-cover object-center'
-                src='/images/Eduford.png'
-                alt='Eduford'
-              />
-              <div className='p-4'>
-                <h1 className='text-2xl font-semibold mb-3'>Eduford</h1>
-                <p className='leading-relaxed mb-3'>
-                  A website Using Html,Css,Javascript, This website is made
-                  because of my school project,this website is responsive
-                </p>
-                <div className='flex items-center flex-wrap '>
-                  <a
-                    href='https://tristanputra2119.github.io/University-Web/'
-                    target='_blank'>
-                    <button className='visit-button'>Visit</button>
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div className='project-box sm:w-1/2 lg:w-1/4 rounded-lg h-1/4'>
-            <div className='h-fit rounded-lg overflow-hidden cursor-default'>
-              <img
-                className='lg:h-40 w-screen object-cover object-center'
-                src='/images/Foodies.png'
-                alt='Foodies'
-              />
-              <div className='p-4'>
-                <h1 className='text-2xl font-semibold mb-3'>Foodies Website</h1>
-                <p className='leading-relaxed mb-3'>
-                  A School Project About Restaurant E-commerce Using Bootstrap
-                  5, This website is responsive
-                </p>
-                <div className='flex items-center flex-wrap '>
-                  <a
-                    href='https://tristanputra2119.github.io/foodies/'
-                    target='_blank'>
-                    <button className='visit-button'>Visit</button>
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div className='project-box sm:w-1/2 lg:w-1/4 rounded-lg h-1/4'>
-            <div className='h-fit rounded-lg overflow-hidden cursor-default'>
-              <img
-                className='lg:h-40 w-screen object-cover object-center'
-                src='/images/OOP.png'
-                alt='Foodies'
-              />
-              <div className='p-4'>
-                <h1 className='text-2xl font-semibold mb-3'>PHP OOP CRUD</h1>
-                <p className='leading-relaxed mb-3'>
-                  A Website Test Project for the competency exam of 12-grade
-                  skills. The website is not using CSS
-                </p>
-                <div className='flex items-center flex-wrap '>
-                  <a
-                    href='http://admincms2.epizy.com/tampil.php'
-                    target='_blank'>
-                    <button className='visit-button'>Visit</button>
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
+          {projects.map((project, index) => (
+            <ProjectBox key={index} {...project} />
+          ))}
         </div>
       </div>
     </section>
