@@ -99,10 +99,10 @@ h3 {
   color: #1e1e1e;
   border: 1px solid var(--bg);
   text-align: center;
-  width: 170px;
+  width: 140px;
   padding: 0.8em;
   font-weight: 600;
-  margin: 15px;
+  margin: 10px;
   border-radius: 4px;
   background: var(--bg);
   transition: 0.2s;
@@ -120,7 +120,7 @@ h3 {
   transform: translate(0);
   box-shadow: none;
 }
-
+/* 
 .ability-box {
   --bg: #1e1e1e;
   --hover-bg: #1e1e1e;
@@ -148,7 +148,7 @@ h3 {
 .ability-box:active {
   transform: translate(0);
   box-shadow: none;
-}
+} */
 
 .php-img {
   margin-top: 25px;
