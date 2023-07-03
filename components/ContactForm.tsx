@@ -136,7 +136,7 @@ function ContactForm() {
                                 <span className="inline-flex pb-5">
                                     <a
                                         className="ml-4 text-[#1E1E1E] hover:text-[#70667a]"
-                                        href="https://www.instagram.com/triznx_/"
+                                        href="https://www.instagram.com/triznx2_/"
                                         target="_blank"
                                     >
                                         <svg
