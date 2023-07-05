@@ -59,14 +59,6 @@ const Project: React.FC = () => {
         "A School Project About Restaurant E-commerce Using Bootstrap 5, This website is responsive",
       visitLink: "https://tristanputra2119.github.io/foodies/",
     },
-    {
-      imageSrc: "/images/OOP.png",
-      imageAlt: "Foodies",
-      title: "PHP OOP CRUD",
-      description:
-        "A Website Test Project for the competency exam of 12-grade skills. The website is not using CSS",
-      visitLink: "http://admincms2.epizy.com/tampil.php",
-    },
   ];
 
   return (
