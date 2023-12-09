@@ -9,7 +9,7 @@ const HomePage = () => {
       <div className='flex flex-col text-center items-center justify-center pl-20 pr-20 animate-fadeIn animation-delay-2 mt-10 py-10 sm:py-20 md:py-40 md:h-full sm:h-full md:flex-row md:space-x-4 md:text-left'>
         <div className='md:mt-2 md:w-1/2'>
           <Image
-            src='/images/Tristan.jpg'
+            src='/images/Portofolio.jpg'
             alt=''
             width={350}
             height={350}
