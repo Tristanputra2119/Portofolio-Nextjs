@@ -36,7 +36,7 @@ const skills = [
   { name: "Tailwind CSS", imageSrc: "/images/tailwind-css.png" },
   { name: "PHP", imageSrc: "/images/php.png" },
   { name: "MySQL", imageSrc: "/images/MySQL.png" },
-  { name: "Laravel", imageSrc: "/images/Laravel.svg.png" },
+  { name: "Laravel", imageSrc: "/images/Laravel.png" },
 ];
 
 const AboutPage = () => {
