@@ -278,3 +278,10 @@ h3 {
   transform: translate(0);
   box-shadow: none;
 }
+
+.flex{
+  display: flex;
+}
+.justify-content-center{
+  justify-content: center;
+}

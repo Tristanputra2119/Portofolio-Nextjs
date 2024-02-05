@@ -7,7 +7,7 @@ const HomePage = () => {
   return (
     <section id="home" className="bg-gray-200 sm:h-screen h-screen pt-2">
       <div className="flex flex-col text-center items-center justify-center pl-20 pr-20 animate-fadeIn animation-delay-2 mt-10 py-10 sm:py-20 md:py-40 md:h-full sm:h-full md:flex-row md:space-x-4 md:text-left">
-        <div className="md:mt-2 md:w-1/2">
+        <div className="md:mt-2 md:w-1/2 flex justify-content-center ">
           <Image
             src="/images/Portofolio.jpg"
             alt=""
