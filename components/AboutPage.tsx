@@ -48,9 +48,7 @@ const AboutPage = () => {
             <SectionHeading text="ABOUT ME" />
             <p className="text-[#1E1E1E] mb:text-lg text-lg">
               My name is <span>Made Ngurah Tristan Putra</span>, you can call me{" "}
-              <span>Tristan</span> for short. I am a 3rd year Vocational High
-              School student majoring in Software Engineering at SMKN 1
-              Denpasar.
+              <span>Tristan</span> for short. I am a first-year university student majoring in Software Engineering.
             </p>
             <br />
             <p className="mb:text-lg text-lg">

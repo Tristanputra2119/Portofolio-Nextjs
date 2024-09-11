@@ -22,8 +22,7 @@ const HomePage = () => {
             Hello! I am Tristan, a Software Engineering student.
           </h1>
           <p className="text-lg mt-4 mb-6 md:text-2xl text-[#1E1E1E]">
-            My name is <span>Made Ngurah Tristan Putra.</span> I am a student at
-            SMKN 1 Denpasar.
+            My name is <span>Made Ngurah Tristan Putra.</span> I am currently a university student At Primakara University.
           </p>
           <a href="#about">
             <button className="home-button">About Me</button>

@@ -44,20 +44,20 @@ const ProjectBox: React.FC<ProjectBoxProps> = ({
 const Project: React.FC = () => {
   const projects: ProjectBoxProps[] = [
     {
-      imageSrc: "/images/Eduford.png",
-      imageAlt: "Eduford",
-      title: "Eduford",
+      imageSrc: "/images/devtunes.png",
+      imageAlt: "Devtunes",
+      title: "Devtunes",
       description:
-        "A website Using Html,Css,Javascript, This website is made because of my school project, this website is responsive",
-      visitLink: "https://tristanputra2119.github.io/University-Web/",
+        "DevTunes is a music site inspired by Spotify. Users can play songs and browse public playlists without logging in.",
+      visitLink: "https://github.com/Tristanputra2119/Devtunes",
     },
     {
-      imageSrc: "/images/Foodies.png",
-      imageAlt: "Foodies",
-      title: "Foodies Website",
+      imageSrc: "/images/hikari.png",
+      imageAlt: "Hikari",
+      title: "Hikari Notes",
       description:
-        "A School Project About Restaurant E-commerce Using Bootstrap 5, This website is responsive",
-      visitLink: "https://tristanputra2119.github.io/foodies/",
+        "Hikari Editor is built using the .NET framework as the base language, Edge WebView2 for text preview, and WinUI 3 for ui.",
+      visitLink: "https://github.com/Tristanputra2119/Hikari-Notes",
     },
   ];
 
