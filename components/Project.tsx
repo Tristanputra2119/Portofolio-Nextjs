@@ -32,7 +32,7 @@ const ProjectBox: React.FC<ProjectBoxProps> = ({
           <p className='leading-relaxed mb-3'>{description}</p>
           <div className='flex items-center flex-wrap '>
             <a href={visitLink} target='_blank'>
-              <button className='visit-button'>Visit</button>
+              <button className='visit-button'>Github</button>
             </a>
           </div>
         </div>
