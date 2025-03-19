@@ -4,7 +4,7 @@ import React from "react";
 import { useForm, ValidationError } from "@formspree/react";
 
 function ContactForm() {
-    const [state, handleSubmit] = useForm("xvoneoye");
+    const [state, handleSubmit] = useForm("mwplveaa");
     if (state.succeeded) {
         return (
             <main>
@@ -47,7 +47,7 @@ function ContactForm() {
                         <div className="p-2 w-3/4">
                             <div className="relative">
                                 <form
-                                    action="https://formspree.io/f/xvoneoye"
+                                    action="https://formspree.io/f/mwplveaa"
                                     method="POST"
                                     onSubmit={handleSubmit}
                                     autoComplete="off"
@@ -152,7 +152,7 @@ function ContactForm() {
                                 <span className="inline-flex pb-5">
                                     <a
                                         className="ml-4 text-[#1E1E1E] hover:text-[#70667a]"
-                                        href="https://www.instagram.com/2xznirt_/"
+                                        href="https://www.instagram.com/apalahwirs"
                                         target="_blank"
                                         rel="noopener noreferrer"
                                         aria-label="Instagram Profile"
