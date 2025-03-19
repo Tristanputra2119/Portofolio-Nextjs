@@ -56,7 +56,7 @@ const Project: React.FC = () => {
       imageAlt: "Hikari",
       title: "Hikari Notes",
       description:
-        "Hikari Editor is built using the .NET framework as the base language, Edge WebView2 for text preview, and WinUI 3 for ui.",
+        "Hikari Editor is built using the .NET framework as the base language, Edge WebView2 for text preview.",
       visitLink: "https://github.com/Tristanputra2119/Hikari-Notes",
     },
   ];
